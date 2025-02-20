@@ -6,15 +6,15 @@ if os.path.exists('error.log'):
         
 #<-----------LOGGING------------>
 logging.basicConfig(level=logging.INFO, filename='error.log')
-LOG = logging.getLogger("Bot by @soheru")
+LOG = logging.getLogger("Bot by @encoding46bot")
 LOG.setLevel(level=logging.INFO)
 #<-----------Variables-------------->
 LOG.info('❤️ Checking Bot Variables.....')
 TRIGGERS = os.environ.get("TRIGGERS", "/ !").split(" ")
-BOT_TOKEN = os.environ.get('BOT_TOKEN', 'your bot token') #BOT Token Add
-API_ID = int(os.environ.get('API_ID', 456789)) #Telgram Api id
-APP_HASH = os.environ.get('APP_HASH', 'your api id')# Telgram App hash  
-OWNER_ID = int(os.environ.get('OWNER_ID', 953362604))
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '8067388483:AAE7QLsIlmK09WCGcdQ5BPQBqp0O2lz0ZrA') #BOT Token Add
+API_ID = int(os.environ.get('API_ID', 27972068)) #Telgram Api id
+APP_HASH = os.environ.get('APP_HASH', '6e7e2f5cdddba536b8e603b3155223c1')# Telgram App hash  
+OWNER_ID = int(os.environ.get('OWNER_ID', 6075512585))
 MONGO_DB = os.environ.get("MONGO_DB", 'your mongodb') #MONGO DB FOR ANIME DATA
 FILES_CHANNEL = os.environ.get("FILES_CHANNEL", -100456789013)    # Must Fill This ,Add Bot As Admin In Log Channel
 BOT_NAME = os.environ.get('BOT_NAME', 'Soheru')
