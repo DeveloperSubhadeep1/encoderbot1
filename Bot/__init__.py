@@ -15,7 +15,7 @@ BOT_TOKEN = os.environ.get('BOT_TOKEN', '8067388483:AAE7QLsIlmK09WCGcdQ5BPQBqp0O
 API_ID = int(os.environ.get('API_ID', 27972068)) #Telgram Api id
 APP_HASH = os.environ.get('APP_HASH', '6e7e2f5cdddba536b8e603b3155223c1')# Telgram App hash  
 OWNER_ID = int(os.environ.get('OWNER_ID', 6075512585))
-MONGO_DB = os.environ.get("MONGO_DB", 'mongodb+srv://encode:encode@cluster0.43lui.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0) #MONGO DB FOR ANIME DATA
+MONGO_DB = os.environ.get("MONGO_DB", 'mongodb+srv://encode:encode@cluster0.43lui.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0') #MONGO DB FOR ANIME DATA
 FILES_CHANNEL = os.environ.get("FILES_CHANNEL", -1002146616379)    # Must Fill This ,Add Bot As Admin In Log Channel
 BOT_NAME = os.environ.get('BOT_NAME', 'Soheru')
 #<-----------Variables For 4GB Support (Optional)-------------->
